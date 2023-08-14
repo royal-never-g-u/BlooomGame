@@ -1,0 +1,209 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Texture_UGC
+  m_EditorClassIdentifier: 
+  m_GroupName: Texture_UGC
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 0345212d0f85ab145a5f1fac1c123c68
+  m_SerializeEntries:
+  - m_GUID: 708b404d939547e42a044cc496f462e4
+    m_Address: UGC_25
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f07dcf49cb2aa8941a48b79b062fd92b
+    m_Address: UGC_11
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 51d99da68239cc04a84c171778e3254b
+    m_Address: UGC_41
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a164a1c47adda724ea6c48c3f54008ea
+    m_Address: UGC_38
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c1dcc733e60348041b516767f5a55138
+    m_Address: UGC_10
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d1bc86ae21ff82d4da31ad6187c532a0
+    m_Address: UGC_6
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f180531ce03678b43933c9ba9d33b004
+    m_Address: UGC_19
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 826f969892b57ac4d9db7259a3000a9c
+    m_Address: UGC_12
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 53dddf335730e9c468cf67abbac4877f
+    m_Address: UGC_43
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 83587e1811b93134b91445f466166222
+    m_Address: UGC_21
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 14da6f1878d94be45a0ffeef55a240f2
+    m_Address: UGC_23
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2492cee32f9e0a54cb2fb1b40606bb5b
+    m_Address: UGC_33
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 54975b6ac508c8543a3c18c27776986a
+    m_Address: UGC_35
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a48bfd220e6dab94293a1427e4d274da
+    m_Address: UGC_44
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2588ead5271081644b7f366333f9bace
+    m_Address: UGC_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 95916286a53104445b60573b35387d6b
+    m_Address: UGC_28
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 962c826d446883e498f6eb56c5e90c49
+    m_Address: UGC_22
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e6b4b1c0cd40cf744b763f322f948219
+    m_Address: UGC_36
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1744b525d7d6061498d989926964b09b
+    m_Address: UGC_4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5720afd92fb433c418649f1e77da9e0d
+    m_Address: UGC_30
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 570df3b1d3c541b40910fda5d0aac34f
+    m_Address: UGC_3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 572d576ff0082924f9abc30412269d43
+    m_Address: UGC_31
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 185f5e4bd45a2444ab7a3edaf1225061
+    m_Address: UGC_9
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 388123508bddaa74088d8cfc17e725a6
+    m_Address: UGC_20
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a8a1e60152040594a9dd2781286b3894
+    m_Address: UGC_2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c811b724431a50a44b81f0a3abce483d
+    m_Address: UGC_16
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c876b1b497cd7974a8c6ff44b48c1d36
+    m_Address: UGC_46
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a9a5eea8ee3fa684eae6cb3226e487bd
+    m_Address: UGC_13
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: da29a21e5e57748418f3b1500bf9dd63
+    m_Address: UGC_26
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9bd2f946de4c5874b9a4e6d3ff920d1c
+    m_Address: UGC_5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bb73b46db722a3d48bcda6c5531a8207
+    m_Address: UGC_34
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0c4954da33b3e5948a0fb7f09efaa05b
+    m_Address: UGC_42
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8c0261ba852246d42997e853e34dd936
+    m_Address: UGC_45
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4de1de435a4b5cf45b1095db0c83108b
+    m_Address: UGC_27
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8d37c7f7d5abb9b47b3ae274a908c885
+    m_Address: UGC_37
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8d5867ddfd33f9948b7571dcc17ceb60
+    m_Address: UGC_15
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: edc736faf425da54a80b6be6dbf6bbb7
+    m_Address: UGC_24
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1e6fb9db151c20047bbab52fe076a94f
+    m_Address: UGC_7
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: be9842e62c5962d49aeccea36c485c09
+    m_Address: UGC_32
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: be2be6a15fded5445bebc2925bdba868
+    m_Address: UGC_29
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ce3e2403f809b614c8ce375c3781dd6d
+    m_Address: UGC_8
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fe847b0383b35a441a98668619e453d9
+    m_Address: UGC_39
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3f302e0280297714abb10ed6463ed7fa
+    m_Address: UGC_40
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9f4f4c86b2aec614caba57902eeac57e
+    m_Address: UGC_17
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9fafe18b2d5d79b4ea767d644e215d0d
+    m_Address: UGC_14
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: effdc77043b277740924aae80b356cea
+    m_Address: UGC_18
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 2067ad9dad39d464c8171cf6b8a9499f, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 4929103ddf1068b4f83da20bda89647b, type: 2}
+    - {fileID: 11400000, guid: fcfac3fc7b47a9b4d86f4ce38791758f, type: 2}

@@ -1,0 +1,353 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Prefabs_2DGraphics_UIViews_CompanyModule
+  m_EditorClassIdentifier: 
+  m_GroupName: Prefabs_2DGraphics_UIViews_CompanyModule
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 8fc2a2a175efbd448b41a2c104fe2830
+  m_SerializeEntries:
+  - m_GUID: 7df44dd4ce2e3c048a27ed14650458d5
+    m_Address: UIItemAutoBuyinHint
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: add21bb38b195614c9255b52a01b1b9f
+    m_Address: UIItemBlockCompany
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5c406ab44b896e44b8f0a7b13863ee38
+    m_Address: UIItemBusinessLoan
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1798d33e7420b484f9a52e85f848cc71
+    m_Address: UIViewPledgeHall
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5fc5cba214eddb646b33dddbca981542
+    m_Address: UIItemBusinessUGC
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 69fe31b6823a7504ca09aa65472055f7
+    m_Address: UIItemChatVote
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5aba7c106f546e54bb97768b3035065d
+    m_Address: UIItemComment
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dd1de6fa4c7243045b5f62d965b7826b
+    m_Address: UIItemCompany
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4afe7cb54d3fba740a153a0a6ff96888
+    m_Address: UIItemCompanyAsset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a921b38d826923340b58dbf86e38f1cc
+    m_Address: UIItemCompanyIcon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6710d3d0e5f3a4b4f890e91845f77399
+    m_Address: UIItemCompanyLog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4b28db01aa1e94242891bf964d369ae8
+    m_Address: UIItemCompanyMember
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6e784e3db4a525c4eb9282c507d5f3cf
+    m_Address: UIItemCompanyModule
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a8ae90595812a4b4084c12c429096a3f
+    m_Address: UIItemCompanyPrice
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1a3a835bc9a119049b780e91ed3b774d
+    m_Address: UIItemCompanyRelationship
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: eca75d8a61ca2fe45a17aa9e545fc04c
+    m_Address: UIItemHoldingCompany
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c32833c356b1af44ba2fa084bc43cc84
+    m_Address: UIItemHoldingCompany1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 840e87b3983c43046a244c71d506aacc
+    m_Address: UIItemLoan
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ce095a8ebe4582d4a8449837be510402
+    m_Address: UIItemPledge
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 95082cc95d87ea945acdf8b627ca5c5d
+    m_Address: UIItemRepayment
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 366f9ef82e68e0f4db6a279fcbe4de7b
+    m_Address: UIItemTimu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8751322c156f5384ebf2c8e5397a00da
+    m_Address: UIItemTrading
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b65c2ab798e938f4dab9501f598ecd09
+    m_Address: UIViewAutoBuyin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 38b954a02b3ba6240b3a008abe6cd231
+    m_Address: UIViewAutoBuyinCertificate
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2879f82d405f8274dbd1f3cb4f58505a
+    m_Address: UIViewAutoBuyingCertificateDetail
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5c373981ed6a2174f86890b6a2e8f88a
+    m_Address: UIViewAutoBuyingDetail
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 71e215c1c35d8544cba6dc6276beae76
+    m_Address: UIViewAutoBuyingLandDetail
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d21b595aa440b3645a226805a674cfdf
+    m_Address: UIViewAutoBuyinLand
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 428b235514c7c414ca29a391e9dc94a5
+    m_Address: UIViewAutoSold
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: aef9389f89a3530459c54d57782e7a24
+    m_Address: UIViewAutoSoldCertificate
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ee3de0a17ae133c459af8ec3982c549f
+    m_Address: UIViewAutoSoldCertificateDetail
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b16dfafc02b15fc4b9c24089cf68b15d
+    m_Address: UIViewAutoSoldDetail
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: df4c6436a77bf2343a6482efac6386c2
+    m_Address: UIViewAutoSoldLand
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4b84cb6cdf89f254eaf7b9d483e84451
+    m_Address: UIViewAutoSoldLandDetail
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a803ab3d2f6f75848a66fbeb3862cd40
+    m_Address: UIViewAutoTradeTypeChose
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2714aeb0938039c4d842294e933844e5
+    m_Address: UIViewAutoTrading
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 37e8a57c69a085e46bc2f2bb627f5074
+    m_Address: UIViewBlockStock
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f9d6ae5163bfa9745a40ef5f4762aa35
+    m_Address: UIViewBorrowingHall
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 79517e99e61d3914f8550a93446cfffd
+    m_Address: UIViewBoughtTimu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8b716b9b35d45df42973f82ef656c595
+    m_Address: UIViewBuyStock
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9bc30fbaf000c324da3afceaa4732ad4
+    m_Address: UIViewCompanyDataPanel
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 24d28c7df9c797242ab95c10b8802bb4
+    m_Address: UIViewCompanyDetails
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8d046131bbbd61f48b13ae26580ec121
+    m_Address: UIViewCompanyFail
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6f55bfce78211da4e920900499a9c22d
+    m_Address: UIViewCompanyLevel
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1a39d208305f16246bd7ace77bc9c473
+    m_Address: UIViewCompanyLevelUpRule
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7b79f124ca8c10d439bb3ced33bb2fbd
+    m_Address: UIViewCompanyLog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fe2cb32a7d0aae140865f0eefe27d38d
+    m_Address: UIViewCompanyMain
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 80478875a83526544946b0c04edfd329
+    m_Address: UIViewCompanyManage
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bed1c19afb5323748b75a6f4562cefd0
+    m_Address: UIViewCompanySecondary
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 997fceb321508c44d80c25fef05e0b4a
+    m_Address: UIViewCompanySending
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a7b9cbc9b86f96544afa29c850f35986
+    m_Address: UIViewCompanySetting
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 87a749791454f0d409fd9b1678e5ae56
+    m_Address: UIViewCompanySuccess
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e3f32e5a4d0d285499cdc961d0f8056d
+    m_Address: UIViewCreateCompany
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7f5dbc5550baa164db8980e8af2f8500
+    m_Address: UIViewCreateCompanyGuide
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 35c950f27dd3da447b17d756b3aaf0c5
+    m_Address: UIViewLoanBlock
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 079d679e7db097f43b8dae9905ac2099
+    m_Address: UIViewOutRelationships
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4af3a6c944e4e4646a78a50924cae501
+    m_Address: UIViewPledgeBlock
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: da16be1e5e98ab54394c33b7e4aff72a
+    m_Address: UIViewRepayment
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: effc36fc857543d4997ded637765aebf
+    m_Address: UIViewSelectCompanyAssets
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 898e33441a68ff1498bbd8c17105f724
+    m_Address: UIViewSelectRepresentative
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 71cac92c20d51bf468564f88269a9fc9
+    m_Address: UIViewSellCompanyStock
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c1f67790899c0884686e548e03babeed
+    m_Address: UIViewSoldTimu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9da5d5ab4f1862c48893c1393092385b
+    m_Address: UIViewStartFight
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7a22f109f6a80004794fe0ddc36357f1
+    m_Address: UIViewStockExchangeDetails
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 949cfca4f6b2d9a44b3140077ec5d926
+    m_Address: UIViewStockholding
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3d7c7ce7d9aa7cb40b8c5ffa6fe7049a
+    m_Address: UIViewStockSellPriceList
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 677506fe023a75242a52ea3ec45ea48d
+    m_Address: UIViewStockSeo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e506d85443354f34cba47560614c3411
+    m_Address: UIViewTodayProfitRule
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 58b85bf2893958c47ad38213bfd90c3a
+    m_Address: UIViewTogetherChuTi
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 97e79c653cd88304087970373d0918b4
+    m_Address: UIViewUnsecuredLoan
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2b509e2c72367734dab1243b33f44d27
+    m_Address: UIViewVote
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 38008373ed095dc4a8f9459a347ee53a
+    m_Address: UIViewLauchUnsecuredLoan
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fcb535f737af9fd45a23c65fad044ff9
+    m_Address: UIViewInjection
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a3d5d67af735f6c408d4f77533698afe
+    m_Address: UIViewCompanyMine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d5cca6d8dd34fa649bc8e9a4ec33e116
+    m_Address: UIViewPledgeRelease
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a575d79730e031a44aa8b229aeb4caca
+    m_Address: UIViewLauchPledgeModule
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 43333e0ebe292f64eae352f263902a10
+    m_Address: UIViewLauchPledge
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c2005081313224e47a6cedac91c6957f
+    m_Address: UIItemBusinessPledge
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e1141c72895f5c244af7dd6fedaaebd0
+    m_Address: UIViewPledge
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7cc800642103b1a48bf17edb7d1ff926
+    m_Address: UIViewInjectionPledge
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4316f42d344b1f74ca192e97780e980b
+    m_Address: UIViewAddPledge
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 06b52e99659579342b6638d7d2d8d71d
+    m_Address: UIViewCompanyUGCModuleDetails
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 2067ad9dad39d464c8171cf6b8a9499f, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 6a0bd4bb404db9240ad1472130b0a7cb, type: 2}
+    - {fileID: 11400000, guid: ace18ed7f48a9864184e6f579ec90726, type: 2}

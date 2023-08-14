@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: bc0dc13a5c1ca0846a5e071b7874132e
+  m_SerializeEntries:
+  - m_GUID: 313fccb680f7dc14aa224fabcd9ecfc6
+    m_Address: HexGrid
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 00fd8ec0bd25d1b4290bef24950b9924
+    m_Address: World
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: aabba4a5b2eb5c64e849a7ef89f1f74e
+    m_Address: yunReverse
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2d852782198e2714889d8c9edaed1b92
+    m_Address: yun
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: aed069144e7932042804e6adcda30327
+    m_Address: Ani
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5e0a2f0f850d8ec47a8129d49c035476
+    m_Address: UIViewMyShuatiHistory
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8bc4dc627c5bd714fad6f5872dc35e79
+    m_Address: UIViewMyCollect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f9097c405dc6d1e41917837aa6cdff44
+    m_Address: UIViewGiveCompany
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c6ca0375ef0ac644c99e8155a3f4a041
+    m_Address: UIViewCreateSuiPian
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6da056b668f9adc419b319a9683d895e
+    m_Address: UIViewCreateSuiPianSelectTM
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 88aee53d685230e4c86decbddd174db1
+    m_Address: UIViewOneClickPack
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3cd124bafe97ad64cb5b2352feffb8eb
+    m_Address: UIViewTKDetails
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 17dc888ca35ad2f4cbe3787796d0ac63
+    m_Address: UIViewOneClickPackSingle
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 303a3ae72dbe94e47ab7d8d7e34974f5
+    m_Address: UIItemMyCollect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ae17dba061ef5d240bdae0776e24ba18
+    m_Address: UIItemCompanyNew
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7b44401002ad5734abd48aa140e3afda
+    m_Address: UIViewOthersKnowledgeLibrary
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ea04683ac998f2340b9d96a0e7753598
+    m_Address: Ape1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1d3415bb9e9e41744944a0401a6b3524
+    m_Address: Mod_Message
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ab6c5c53bfa6e284f9a9286538813b23
+    m_Address: UIViewOthersTKDetails
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c906d2d0ab6b149468ad853ae0eb3d78
+    m_Address: Gold_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 33d1a01325e8f4b4e92384086a6056a0
+    m_Address: Camp_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 13759bbbe387ae2459c610d97dba9cd4
+    m_Address: UIItemCoin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d25b9b32e50dbe54f81c2fb3b7d88766
+    m_Address: UIITemPackResult
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1a031474b5ad0354e91630565b153e5c
+    m_Address: Mod_BaseShip
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 13d480a0109b5db4daebc50307538493
+    m_Address: UIItemZongLangContent
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: df8f0d43f8227d54797e4f98b9eba046
+    m_Address: UIItemZongLangTitle
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d26a2a1f5db2a1c469f3c50f0c224b11
+    m_Address: Ape2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 2067ad9dad39d464c8171cf6b8a9499f, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 4ef31763eadbc3845a96314768c3af4d, type: 2}
+    - {fileID: 11400000, guid: e4d3ae0f12ff43c4e82b7a3cf2daa489, type: 2}

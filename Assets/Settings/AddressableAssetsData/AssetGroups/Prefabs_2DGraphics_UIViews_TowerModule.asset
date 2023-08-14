@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Prefabs_2DGraphics_UIViews_TowerModule
+  m_EditorClassIdentifier: 
+  m_GroupName: Prefabs_2DGraphics_UIViews_TowerModule
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 696ceeca7e2563540941a942d991b6e3
+  m_SerializeEntries:
+  - m_GUID: 0c824ebbf4d2d394a89bedcf473a05d7
+    m_Address: TowerItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a0bfc30ad8ff15c41a3cd51b0d55d11e
+    m_Address: UIItemTowerTi
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 38566142b7eeeba459c34ec52fe94327
+    m_Address: UIViewAddInTower
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a1715e6e85645a14b991943be9ba3eef
+    m_Address: UIViewRankTower
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 433eb1a8efe6a034c9b989de9abb17ac
+    m_Address: UIViewTower
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 92a4636dfae8eec499b6669ac59144b9
+    m_Address: UIViewTowerBuild
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 60787c6084cf6554b8433d4c1d3c8d8f
+    m_Address: UIViewTowerConfirm
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7c741064fa57f49418b26e5f33fb6325
+    m_Address: UIViewTowerGame
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9d78c049389e4b649a13b617adfd3764
+    m_Address: UIViewTowerResult
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9b325987334fda547912e123526269f8
+    m_Address: UIViewTowerTips
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c7a67392f7b553e4d833d5a6354fa67d
+    m_Address: UIViewTowerDaoHuo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3459677b0f54acf488965c8aef0298d9
+    m_Address: UIViewTowerReward
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cccbbefc9f1dca845b245fb9d1f82038
+    m_Address: UIViewTowerTiaoCheng
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 69509e0ecc89a684eadc433af4a44018
+    m_Address: UIViewTowerTongYong
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b6b9f733bd2af524f8e1f5e891538aa0
+    m_Address: UIViewTowerZuanGou
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fc00db5bfa799d84083c093f5819a985
+    m_Address: UIViewTowerZuanHuo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 76e73ee54d81ba149a46ee57c372f9e3
+    m_Address: UIViewTowerReady
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 706cdcb6dc75b834e9c16061f9808388
+    m_Address: UIViewTowerTag
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a18bace56c11ef043aa1582cf3c9b28a
+    m_Address: UIViewNewTower
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1c805af38b612a841ab057765745e318
+    m_Address: TowerItem1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a59cfdbaa9c0e8c448aec0012525c903
+    m_Address: TowerItem2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 55799c64c8f7ffd4ba56124e157e8f54
+    m_Address: TowerItem3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dfc220cbec21865408058ae797e626cd
+    m_Address: UIViewRankUser
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ef7fe696fd8fad84199edc99771a3825
+    m_Address: UIViewCommonUseProp
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 2067ad9dad39d464c8171cf6b8a9499f, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 697f74611239f4e4db22cc8d04e233d7, type: 2}
+    - {fileID: 11400000, guid: 15a88d09348ed9e4aa40ee9850db5bac, type: 2}

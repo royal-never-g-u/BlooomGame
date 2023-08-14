@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Prefabs_2DGraphics_UIViews_LoginModule
+  m_EditorClassIdentifier: 
+  m_GroupName: Prefabs_2DGraphics_UIViews_LoginModule
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 25c372dcb20f81f41b0dfcbc97924541
+  m_SerializeEntries:
+  - m_GUID: 0e996f195535277479d430cc97d01d64
+    m_Address: UIViewLogin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f1576d14387989343af1d00288faf990
+    m_Address: UIViewMainLoading
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 2067ad9dad39d464c8171cf6b8a9499f, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f9a3cd5fed5513a44b156ff5911fc689, type: 2}
+    - {fileID: 11400000, guid: 6a7d2d374bdd1ab418bbbb1fc129b2b6, type: 2}

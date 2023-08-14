@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Texture_PaTa
+  m_EditorClassIdentifier: 
+  m_GroupName: Texture_PaTa
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 5d3aeb54ea82f2747b5244ff031804fb
+  m_SerializeEntries:
+  - m_GUID: 694674d6a19a5de42ba03201c7418245
+    m_Address: rank2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 28a9ab6352df0b74da7b49372eb64ccd
+    m_Address: rank4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6abf4a6fc82520a4fbd0fcdf456319b3
+    m_Address: rank1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2e916c64582b8c449ba0bf03c9236441
+    m_Address: rank6
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cc8fcff80a8b8f740829b14dd52bf32a
+    m_Address: rank5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1552a04bfcdde314ab45d1c260b4ea90
+    m_Address: rank3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 2067ad9dad39d464c8171cf6b8a9499f, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 4fcb8e96f045d9248a00b2b23479c76d, type: 2}
+    - {fileID: 11400000, guid: 3f5873d94ec9e4941b4656c2e3857aab, type: 2}

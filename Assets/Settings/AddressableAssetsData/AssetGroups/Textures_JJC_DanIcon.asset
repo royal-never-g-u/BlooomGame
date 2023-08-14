@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Textures_JJC_DanIcon
+  m_EditorClassIdentifier: 
+  m_GroupName: Textures_JJC_DanIcon
+  m_Data:
+    m_SerializedData: []
+  m_GUID: f354b125b1f516d4596c25b678215a8f
+  m_SerializeEntries:
+  - m_GUID: 1d24c79fa9d683142883141bf9f025a1
+    m_Address: dan_5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ac47dc40a8fd59c40a01a0e9834a5b86
+    m_Address: dan_6
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 99d97507bdbd8bc45b8ae5e737fa976c
+    m_Address: dan_8
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 67450eadcb07e5d49b7599868fec6055
+    m_Address: dan_9
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 17d1e27ae0a959545b94d0c6f52a377f
+    m_Address: dan_4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 73e9f5f72b6ea664680216a137e02591
+    m_Address: dan_7
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 53123cc7e5fc7074a9aa52ccbd8e1fc6
+    m_Address: dan_3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4091e08fcda47d4408b0e0eafa9b1c81
+    m_Address: dan_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fd7163e94cedbf14d8e60e90de11915a
+    m_Address: dan_2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3efe361b45118c34a82600cfdea7a156
+    m_Address: dan_10
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 2067ad9dad39d464c8171cf6b8a9499f, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: de65e4cac647aff4f9d44d70154dd511, type: 2}
+    - {fileID: 11400000, guid: 5c59cbf4cb174e24dae5af013c566349, type: 2}

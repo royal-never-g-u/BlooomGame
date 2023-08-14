@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Prefabs_2DGraphics_UIViews_HomeModule
+  m_EditorClassIdentifier: 
+  m_GroupName: Prefabs_2DGraphics_UIViews_HomeModule
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 24d5e398f1f36c1458244705aca306a5
+  m_SerializeEntries:
+  - m_GUID: d5a69f406c303e540bb404cca821b12c
+    m_Address: UIItemCanBuildInfo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7a34e4b4c1fe02549850cb4158074490
+    m_Address: UIItemCommonProp
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 34c895132cf29d74fb1a6f973960b33c
+    m_Address: UIItemFans
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f39841cfeb7dac746ba19117cdaff7cf
+    m_Address: UIItemFollow
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 80bedb1a5719602469e1702286bd9bfc
+    m_Address: UIItemGive
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ade1a5d2a4e3dc948a089ee15368cbf6
+    m_Address: UIItemMyBuildingInfo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7e673bddebafe794eb69fa8ed775d2c8
+    m_Address: UIItemPageTag
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9ec7bc99e1532fc43b6f80d67435b506
+    m_Address: UIItemTag
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0554624cdd0f1cc47b6a1c02665f60ef
+    m_Address: UIItemTiKu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a1346a85bc535c84683bbe4256767be6
+    m_Address: UIView3DHome
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 22ed4c2edae6eb54ebaa2289d6c49d19
+    m_Address: UIViewAddQuestion
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4fc2dcc0627148d4db0dc04245d15f75
+    m_Address: UIViewAddtoTiku
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9f99f86105e1d024982a6d0cd01e8699
+    m_Address: UIViewApplyLand
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fa484598888e4744e851603ff1bf0149
+    m_Address: UIViewBuildingManage
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 37ba73ea8b7c3aa4aa02cd9c79a30c13
+    m_Address: UIViewCreateBuild
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 13736f02a1191cd4c8482f93bd27f42b
+    m_Address: UIViewCreateTiku
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 17d86bf117b3aa044840f35734ebd0cd
+    m_Address: UIViewDataPanel
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bd1be95a98a85a04e9fac29e207296c8
+    m_Address: UIViewFans
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 62fb895dbead28847ac805b5dbeede44
+    m_Address: UIViewFollow
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 80accec471f14634db2891017188a853
+    m_Address: UIViewGive
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c9f2eb9d07cffc44a93634980730ad35
+    m_Address: UIViewHome
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 398a86ce2a84ca64ea99df9f7035c5d3
+    m_Address: UIViewHomeInfo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7467b76b246abb94aa0493be6cb39dd0
+    m_Address: UIViewMyAccInfo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 512a433351ee8fb4c8e89c10d31a97aa
+    m_Address: UIViewOtherHome
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e9a0c047f877f174daa9b06a5bff2994
+    m_Address: UIViewTikuDetail
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e30c8deddd47dd24ca1994ccfd8f4c5e
+    m_Address: UIViewFriend
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f3960b339db725240b11cdbbdd70b4d9
+    m_Address: UIItemFriend
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b1a15a2d582715346bb7770c7a4171eb
+    m_Address: UIViewKnowledgeLibrary
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b91d0f092f8e5f84eabbc8b06272b42e
+    m_Address: UIViewBuildingEditInfo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 72331b83186ae594799ea3339bbe4d50
+    m_Address: UIViewCommonUI
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ff52f8b701659bd4a93cd13cca212719
+    m_Address: UIViewBuildingOperation
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 2067ad9dad39d464c8171cf6b8a9499f, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: a2cf38ac4d163da45ac5f9e0839fec27, type: 2}
+    - {fileID: 11400000, guid: a0bcb17925497a74f9b51a7f2a5f1c17, type: 2}

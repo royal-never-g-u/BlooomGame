@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Fonts
+  m_EditorClassIdentifier: 
+  m_GroupName: Fonts
+  m_Data:
+    m_SerializedData: []
+  m_GUID: d6536e5e03029254d8692d1906f735f8
+  m_SerializeEntries:
+  - m_GUID: d661e330263262e43a0b4d86447b5ebd
+    m_Address: Alimama_ShuHeiTi_Bold
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 50099ade826a8aa499fb190b68313150
+    m_Address: pt-mono_regular
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: be34c06ded15a1147b06e2dd1482c13b
+    m_Address: pt-root-ui_light
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: eda01cb56a7c2cb41ad0a050da5fa521
+    m_Address: SHOWG
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5997782b4d5390d47acee80aa23fc140
+    m_Address: "\u65B9\u6B63\u9ED1\u4F53\u7B80\u4F53"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 2067ad9dad39d464c8171cf6b8a9499f, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d89401ec3c45dac4cbe1b44d4b07dc71, type: 2}
+    - {fileID: 11400000, guid: 45ea6dc01d1f4334195d8f24cde6d870, type: 2}

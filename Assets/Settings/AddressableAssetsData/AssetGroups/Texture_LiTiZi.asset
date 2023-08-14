@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Texture_LiTiZi
+  m_EditorClassIdentifier: 
+  m_GroupName: Texture_LiTiZi
+  m_Data:
+    m_SerializedData: []
+  m_GUID: c250e28bf5902c540b746e6b1c388a52
+  m_SerializeEntries:
+  - m_GUID: de56b708ade54d348a93fbc021b2dc12
+    m_Address: LiTiZi_5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7e97672ce06da054cb776098de9a61f0
+    m_Address: LiTiZi_7
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cb8777014c0788640acc44d8eabeea2d
+    m_Address: LiTiZi_9
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5b3abd94bbdf25741a931b72e8b9b75f
+    m_Address: LiTiZi_6
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a9f45bbdbe338154696fc9226bad4a87
+    m_Address: LiTiZi_4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a89ae2cc53ed68544b8b5c5055f70ffc
+    m_Address: LiTiZi_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a81668ab755af314486ae9c7ec81abf9
+    m_Address: LiTiZi_3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 06cfdd90ce5a8a5409dad97d9353f380
+    m_Address: LiTiZi_10
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 625bbb5083a659842a26d11747647c31
+    m_Address: LiTiZi_8
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 807d81aaeb26ffc478d8475b597287fc
+    m_Address: LiTiZi_2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 2067ad9dad39d464c8171cf6b8a9499f, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 0f72f800f16ea3643986ba4e290ec5f2, type: 2}
+    - {fileID: 11400000, guid: 0eab1625d7e9e084f92eb620b2c94746, type: 2}

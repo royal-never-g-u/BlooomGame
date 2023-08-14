@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Texture_SanKi_DouTi
+  m_EditorClassIdentifier: 
+  m_GroupName: Texture_SanKi_DouTi
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 5378c2e3487eb1f43ab6905da6e466e1
+  m_SerializeEntries:
+  - m_GUID: 57f4e90e7a5fd2a44bed458bd1e1ac82
+    m_Address: DouTi333
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c3a6de8a9877e504ba60b775c99c8b4b
+    m_Address: DouTi111
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f3016acb7d4c83f458b739619578f424
+    m_Address: DouTi222
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 2067ad9dad39d464c8171cf6b8a9499f, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 42308ad4c87132842bbf6a343a536d2a, type: 2}
+    - {fileID: 11400000, guid: e618fb3afb9a9e6489329b6cda30ad82, type: 2}
