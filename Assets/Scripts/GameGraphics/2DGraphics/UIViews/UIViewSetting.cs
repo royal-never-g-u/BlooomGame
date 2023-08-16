@@ -59,8 +59,6 @@ namespace GameGraphics
         /// </summary>
         protected override void OnButtonPanelClick()
         {
-            //保存偏好设置
-            SetPlayerPrefer();
             //关闭当前页面
             Close();
         }
@@ -127,6 +125,14 @@ namespace GameGraphics
         }
 
         /// <summary>
+        /// 应用偏好设置
+        /// </summary>
+        protected override void OnButtonApplyClick()
+        {
+            SetPlayerPrefer();
+        }
+
+        /// <summary>
         /// 载入偏好设置
         /// </summary>
         private void LoadPlayerPrefer()
@@ -176,7 +182,5 @@ namespace GameGraphics
             PlayerPrefs.SetInt(resolutIndex,resolutionIndex);
             PlayerPrefs.SetInt(fullScreen, isFullScreen ? 1 : 0);
         }
-
-
     }
 }

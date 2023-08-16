@@ -26,6 +26,8 @@ namespace GameGraphics
 		protected virtual void OnButtonResolutionLeftBtnClick(){ }
 		protected Button _buttonResolutionRightBtn;
 		protected virtual void OnButtonResolutionRightBtnClick(){ }
+		protected Button _buttonApply;
+		protected virtual void OnButtonApplyClick(){ }
 		protected override void BindWidgets()
 		{
 			_buttonPanel = _root.transform.Find("<Button>Panel").GetComponent<Button>();
@@ -44,6 +46,8 @@ namespace GameGraphics
 			_buttonResolutionLeftBtn.onClick.AddListener(OnButtonResolutionLeftBtnClick);
 			_buttonResolutionRightBtn = _root.transform.Find("<GameObject>SettingPanel/Setting/Resolution/<Button>ResolutionRightBtn").GetComponent<Button>();
 			_buttonResolutionRightBtn.onClick.AddListener(OnButtonResolutionRightBtnClick);
+			_buttonApply = _root.transform.Find("<GameObject>SettingPanel/<Button>Apply").GetComponent<Button>();
+			_buttonApply.onClick.AddListener(OnButtonApplyClick);
 		}
 		protected override string GetPrefabPath()
 		{
