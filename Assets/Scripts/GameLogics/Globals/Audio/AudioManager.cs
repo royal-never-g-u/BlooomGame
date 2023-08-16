@@ -25,7 +25,6 @@ public class AudioManager : MonoBehaviour
 
         bgmMixerParam = "BgmVolume";
         soundMixerParam = "SoundVolume";
-
     }
     
     //1.≤•∑≈°¢‘›Õ£œ‡πÿ

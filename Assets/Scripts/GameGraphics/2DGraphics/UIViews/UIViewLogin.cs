@@ -14,8 +14,8 @@ namespace GameGraphics
         /// </summary>
         protected override void OnEnter(object data = null)
         {
-            LoadPlayerPrefer();                    //载入偏好设置
-            AudioManager.Instance.PlayBGM("1");    //播放BGM
+            SaveManager.Instance.ApplyPlayerPrefer();  //应用偏好设置
+            AudioManager.Instance.PlayBGM("1");        //播放BGM
 
         }
 
@@ -32,7 +32,7 @@ namespace GameGraphics
         /// </summary>
         protected override void OnButtonOldGameBtnClick()
         {
-            
+            Open<UIViewGameSave>(null, EUIViewOpenType.Overlying, EUIViewPriority.Level5);
         }
 
         /// <summary>
@@ -60,18 +60,5 @@ namespace GameGraphics
         {
             
         }
-
-        /// <summary>
-        /// 载入偏好设置
-        /// </summary>
-        private void LoadPlayerPrefer()
-        {
-            //1.音量
-            AudioManager.Instance.AdjustMusicVolume(PlayerPrefs.GetFloat(UIViewSetting.musicVolume,1.0f));
-            AudioManager.Instance.AdjustBgmVolume(PlayerPrefs.GetFloat(UIViewSetting.bgmVolume, 1.0f));
-            AudioManager.Instance.AdjustSoundVolume(PlayerPrefs.GetFloat(UIViewSetting.soundVolume, 1.0f));
-
-        }
-
     }
 }

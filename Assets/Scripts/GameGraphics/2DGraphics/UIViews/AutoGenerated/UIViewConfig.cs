@@ -14,6 +14,7 @@ namespace GameGraphics
 			{"UIViewLogin", typeof(UIViewLogin)},
 			{"UIViewSetting", typeof(UIViewSetting)},
 			{"UIViewDeveloperInfo", typeof(UIViewDeveloperInfo)},
+			{"UIViewGameSave", typeof(UIViewGameSave)},
 		};
 	}
 }
