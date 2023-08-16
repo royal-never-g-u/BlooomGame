@@ -16,39 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 99482b411109f094c88aad89221de46b
-  m_SerializeEntries:
-  - m_GUID: f5435ddce2ca1e94fbbdf80ee4b4f7ea
-    m_Address: Mod_BaseCamp
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 9ff34e3568f43704c90a6de0a500bf53
-    m_Address: Mod_Company
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: ba0ba2e3d0ed0334a92745b2974109df
-    m_Address: Mod_Transmit_01
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 718a84de83fa91740b96981701575eec
-    m_Address: Mod_Exchange
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: e5f16cd52953eb8469defe97c6acdf87
-    m_Address: Mod_SMJQ_01
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: aa8c17db94e937b4b81abecd60b2f656
-    m_Address: Mod_Camp_01
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 87d98ee92363d43419f5b354adcffb66
-    m_Address: Mod_Gold_01
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 933f893ee24539844bc863498ff2bed3
-    m_Address: Mod_UGC
-    m_ReadOnly: 0
-    m_SerializedLabels: []
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 2067ad9dad39d464c8171cf6b8a9499f, type: 2}
   m_SchemaSet:

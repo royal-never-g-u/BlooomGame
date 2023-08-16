@@ -16,71 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 8c2d2981aeb0e984b91fd251961cb595
-  m_SerializeEntries:
-  - m_GUID: 0084a243d4b54894d86486c3174b0662
-    m_Address: HeadIcon_14
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: b174f535cd73ade4e91b95f270827d8c
-    m_Address: HeadIcon_3
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: a49892f58e2028340b0e01e59d58a236
-    m_Address: HeadIcon_13
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: a52daaf0babb15a47abace5a56096d52
-    m_Address: HeadIcon_1
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 96043c62316936c4d91f8a28ca337238
-    m_Address: HeadIcon_16
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 17f202404cf1a974480062653642c065
-    m_Address: HeadIcon_7
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: c77f9645cebe10041bc70b94b8b05685
-    m_Address: HeadIcon_5
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 2890fb02e6717ec4197915bdd0834bea
-    m_Address: HeadIcon_4
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 88156e38598dda540917e9da7f8a035b
-    m_Address: HeadIcon_11
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 2988f8f79a876a34da5d81fc4cdfac78
-    m_Address: HeadIcon_6
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 699637e4ff2b2e449ac9d56498367fd7
-    m_Address: HeadIcon_12
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: fb0ae2efc12db4c43953c7ebc29b8b69
-    m_Address: HeadIcon_2
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 8c36acd8bd01bf742a48d72dd26f43df
-    m_Address: HeadIcon_15
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 1ddef17ee989dce4780acf8391b55e32
-    m_Address: HeadIcon_9
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 4deb3a313808438418fcdc7873213864
-    m_Address: HeadIcon_8
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: ed91b8ea1c9367d48b8b8fef755d3437
-    m_Address: HeadIcon_10
-    m_ReadOnly: 0
-    m_SerializedLabels: []
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 2067ad9dad39d464c8171cf6b8a9499f, type: 2}
   m_SchemaSet:

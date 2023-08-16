@@ -16,47 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: e2bd73339ed29e144bfb8f7524be1fd6
-  m_SerializeEntries:
-  - m_GUID: 23120a029e21841439cec9242f7416e1
-    m_Address: Rank2
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 56f16993e1f7f15408f808757a2acb45
-    m_Address: Rank1
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 9704fb7dbea5c5949b5bfffec1f8be74
-    m_Address: Rank3
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 3efa76bbce92a074bbee6e966b1419dd
-    m_Address: Company1
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 490e5135d7f724f479031440d670067e
-    m_Address: Company2
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 90df20b2d2233ee459cf015f120fa875
-    m_Address: Red
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: b2a5ceab118f5c84f969d755f0015020
-    m_Address: Green
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 7549e9b015b4bcf448a8833c682d5528
-    m_Address: NoneColor
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: fb97b15e27c0aae4cb25587d68578bcd
-    m_Address: Blue
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: df0205d30634ab943bc0b2638be391cf
-    m_Address: Orange
-    m_ReadOnly: 0
-    m_SerializedLabels: []
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 2067ad9dad39d464c8171cf6b8a9499f, type: 2}
   m_SchemaSet:

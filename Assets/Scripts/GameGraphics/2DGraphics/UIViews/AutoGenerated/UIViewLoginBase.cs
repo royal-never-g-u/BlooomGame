@@ -10,12 +10,28 @@ namespace GameGraphics
 {
 	public class UIViewLoginBase : UIViewBase
 	{
-		protected Button _buttonStart;
-		protected virtual void OnButtonStartClick(){ }
+		protected Button _buttonNewGameBtn;
+		protected virtual void OnButtonNewGameBtnClick(){ }
+		protected Button _buttonOldGameBtn;
+		protected virtual void OnButtonOldGameBtnClick(){ }
+		protected Button _buttonQuitBtn;
+		protected virtual void OnButtonQuitBtnClick(){ }
+		protected Button _buttonInfoBtn;
+		protected virtual void OnButtonInfoBtnClick(){ }
+		protected Button _buttonSettingBtn;
+		protected virtual void OnButtonSettingBtnClick(){ }
 		protected override void BindWidgets()
 		{
-			_buttonStart = _root.transform.Find("Image/<Button>Start").GetComponent<Button>();
-			_buttonStart.onClick.AddListener(OnButtonStartClick);
+			_buttonNewGameBtn = _root.transform.Find("<Button>NewGameBtn").GetComponent<Button>();
+			_buttonNewGameBtn.onClick.AddListener(OnButtonNewGameBtnClick);
+			_buttonOldGameBtn = _root.transform.Find("<Button>OldGameBtn").GetComponent<Button>();
+			_buttonOldGameBtn.onClick.AddListener(OnButtonOldGameBtnClick);
+			_buttonQuitBtn = _root.transform.Find("<Button>QuitBtn").GetComponent<Button>();
+			_buttonQuitBtn.onClick.AddListener(OnButtonQuitBtnClick);
+			_buttonInfoBtn = _root.transform.Find("<Button>InfoBtn").GetComponent<Button>();
+			_buttonInfoBtn.onClick.AddListener(OnButtonInfoBtnClick);
+			_buttonSettingBtn = _root.transform.Find("<Button>SettingBtn").GetComponent<Button>();
+			_buttonSettingBtn.onClick.AddListener(OnButtonSettingBtnClick);
 		}
 		protected override string GetPrefabPath()
 		{

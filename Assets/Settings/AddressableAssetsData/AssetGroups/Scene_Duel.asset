@@ -16,43 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 4b541b637aed53b439fee3b2c391dc3b
-  m_SerializeEntries:
-  - m_GUID: 2c8d17d7f1c06a34c9f460543976feac
-    m_Address: DuelField1on1
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 575aec49c8740634387c948c75b51cf7
-    m_Address: MonkeyPlayer
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 9e62354592d1c2846892cf2103548499
-    m_Address: BannerGroup
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 29e69682c04b3f040b3ff0ce55bd3046
-    m_Address: SmallMonkey
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 4f4a4b7d673d8d84c94f75e2d5f9d649
-    m_Address: EndLine
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: f93930129ac458542ae3def0292ac411
-    m_Address: Temp_HeadIcon_1
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: bcedda9bf7975ae46aa5bc83a58eb14f
-    m_Address: Temp_HeadIcon_3
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: ca55e87bb84e4b84bafc900482a100a4
-    m_Address: Temp_HeadIcon_2
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: cdbdb7bb11f92b24ea74cb56345ee18e
-    m_Address: Temp_HeadIcon_Outline
-    m_ReadOnly: 0
-    m_SerializedLabels: []
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 2067ad9dad39d464c8171cf6b8a9499f, type: 2}
   m_SchemaSet:

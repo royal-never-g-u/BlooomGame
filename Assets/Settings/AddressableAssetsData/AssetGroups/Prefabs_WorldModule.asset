@@ -16,43 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: d660efbbf0ace2c4db14a2bc68195189
-  m_SerializeEntries:
-  - m_GUID: e00e205bd0937624b8d8bd96d4d2d36e
-    m_Address: UIViewGetResource
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 88a86de738f1ee94fa8557cab4727ccf
-    m_Address: UIViewBanJiaTips
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 7d28ec026f977cf40b4172ad0a63e684
-    m_Address: UIViewBianDuiPage
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: b71a6ee94c4820243a95cdf7813709a9
-    m_Address: UIViewBuildLand
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 806a7a6ee74ecc54f970e63e07e961b5
-    m_Address: UIViewJiJiePage
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: d12696b607393b544a4cb30213c6bb88
-    m_Address: UIViewJiJieTip
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 3078c01528f702448ab6706d15a09132
-    m_Address: UIViewWorldGongJi
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: a3dc5a6eb7c71504888af9187dbc913f
-    m_Address: UIViewWorldQueDing
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 932a164e4a561484f9a69ef22bfaaadc
-    m_Address: BianDuiItem
-    m_ReadOnly: 0
-    m_SerializedLabels: []
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 2067ad9dad39d464c8171cf6b8a9499f, type: 2}
   m_SchemaSet:

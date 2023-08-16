@@ -16,23 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 56d41756a42fbf249afc06f2128f1b12
-  m_SerializeEntries:
-  - m_GUID: 455348e3cdb7c954da4a5a6965acb698
-    m_Address: QuizRankItem
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 472c425480ea4494caad978b3603d9de
-    m_Address: UIViewQuizRank
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 0f07ced0baedc4d429f8a710c9bd20a0
-    m_Address: QuizRankEmpty
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 8bfa3f29b479527418120150e669353e
-    m_Address: UserRankItem
-    m_ReadOnly: 0
-    m_SerializedLabels: []
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 2067ad9dad39d464c8171cf6b8a9499f, type: 2}
   m_SchemaSet:
