@@ -24,7 +24,8 @@ namespace GameGraphics
         /// </summary>
         protected override void OnButtonNewGameBtnClick()
         {
-            
+            Close();
+            GameObject.Find("Person").AddComponent<PersonComponent>();
         }
         
         /// <summary>

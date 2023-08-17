@@ -12,6 +12,10 @@ public class PersonComponent : MonoBehaviour
     public bool invertY = false;
     public float boost = 3.5f;
     public float positionLerpTime = 0.2f;
+    public Rigidbody rb;
+    private bool onGround=true;
+    private Camera myCamera;
+    private Vector3 deltaPos = Vector3.zero;
     class ComponentState
     {
         public float yaw;
@@ -56,6 +60,10 @@ public class PersonComponent : MonoBehaviour
             t.eulerAngles = new Vector3(pitch, yaw, roll);
             t.position = new Vector3(x, y, z);
         }
+        public void ResetRotation(Transform t)
+        {
+            t.eulerAngles = Vector3.zero;
+        }
     }
     ComponentState _TargetState = new ComponentState();
     ComponentState _InterpolatingState = new ComponentState();
@@ -68,16 +76,36 @@ public class PersonComponent : MonoBehaviour
             return;
         }
         Instance = this;
+        if (rb == null)
+        {
+            rb = gameObject.GetComponent<Rigidbody>();
+        }
+        myCamera = Camera.main;
+        deltaPos=myCamera.transform.position- transform.position;
     }
     // Start is called before the first frame update
     void Start()
     {
         
     }
-
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.collider.name == "Ground")
+        {
+            onGround = true;
+            _TargetState.x = transform.position.x;
+            _TargetState.y = transform.position.y;
+            _TargetState.z = transform.position.z;
+        }
+    }
+    private void OnTriggerStay(Collider other)
+    {
+        
+    }
     // Update is called once per frame
     void Update()
     {
+        //myCamera.transform.position = transform.position + deltaPos;
         if (IsEscapePressed())
         {
             Application.Quit();
@@ -94,6 +122,11 @@ public class PersonComponent : MonoBehaviour
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
         }
+        if (Input.GetKey(KeyCode.Space))
+        {
+            rb.AddForce(Vector3.up*0.1f,ForceMode.VelocityChange);
+            onGround = false;
+        }
         if (IsCameraRotationAllowed())
         {
             var mouseMovement = GetInputLookRotation() * k_MouseSensitivityMultiplier * mouseSensitivity;
@@ -105,7 +138,8 @@ public class PersonComponent : MonoBehaviour
             _TargetState.yaw += mouseMovement.x * mouseSensitivityFactor;
             _TargetState.pitch += mouseMovement.y * mouseSensitivityFactor;
         }
-        var translation = GetInputTranslationDirection() * Time.deltaTime;
+        var translation = Vector3.zero;
+        translation = GetInputTranslationDirection() * Time.deltaTime;
         if (IsBoostPressed())
         {
             translation *= 10.0f;
@@ -113,10 +147,19 @@ public class PersonComponent : MonoBehaviour
         boost += GetBoostFactor();
         translation *= Mathf.Pow(2.0f, boost);
         _TargetState.Translate(translation);
+        transform.position += translation;
         var positionLerpPct = 1f - Mathf.Exp((Mathf.Log(1f - 0.99f) / positionLerpTime) * Time.deltaTime);
         var rotationLerpPct = 1f - Mathf.Exp((Mathf.Log(1f - 0.99f) / rotationLerpTime) * Time.deltaTime);
         _InterpolatingState.LerpTowards(_TargetState, positionLerpPct, rotationLerpPct);
-        _InterpolatingState.UpdateTransform(transform);
+        if (onGround)
+        {
+            //_InterpolatingState.UpdateTransform(transform);
+            _InterpolatingState.ResetRotation(transform);
+        }
+        else
+        {
+            _InterpolatingState.ResetRotation(transform);
+        }
     }
     bool IsEscapePressed()
     {
