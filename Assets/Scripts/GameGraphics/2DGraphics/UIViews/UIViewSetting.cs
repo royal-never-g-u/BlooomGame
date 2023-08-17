@@ -1,3 +1,4 @@
+using GameLogics;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
@@ -6,7 +7,7 @@ namespace GameGraphics
 {
 
     /// <summary>
-    /// 游戏设置页面
+    /// 游戏设置页面，传入一个bool值，代表底部按钮的状态（如果是从游戏运行页面进入的话，就是true，其他则为false
     /// </summary>
 	public class UIViewSetting : UIViewSettingBase
     {
@@ -21,6 +22,8 @@ namespace GameGraphics
         /// </summary>
         protected override void OnEnter(object data = null)
         {
+            //底部按钮的状态
+            _gameobjectExtraSetting.SetActive((bool)data);
             //初始化
             LoadPrefer(SaveManager.Instance.LoadPlayerPrefer());
             //给滑块添加响应
@@ -87,6 +90,9 @@ namespace GameGraphics
         /// </summary>
         protected override void OnButtonPanelClick()
         {
+            //重置偏好
+            LoadPrefer(SaveManager.Instance.LoadPlayerPrefer());
+            ChangeStatus();
             //关闭当前页面
             Close();
         }
@@ -161,6 +167,33 @@ namespace GameGraphics
         protected override void OnButtonApplyClick()
         {
             SavePrefer();
+        }
+
+        /// <summary>
+        /// 回溯时光
+        /// </summary>
+        protected override void OnButtonLoadClick()
+        {
+            Open<UIViewGameSave>(2, EUIViewOpenType.Overlying, EUIViewPriority.Level5);
+        }
+
+        /// <summary>
+        /// 储存进度
+        /// </summary>
+        protected override void OnButtonSaveClick()
+        {
+            Open<UIViewGameSave>(1, EUIViewOpenType.Overlying, EUIViewPriority.Level5);
+        }
+
+        /// <summary>
+        /// 返回标题
+        /// </summary>
+        protected override void OnButtonReturnClick()
+        {
+            SaveManager.Instance.AutoSaveData();  //自动保存
+            Application.quitting -= SaveManager.Instance.AutoSaveData;
+            Close();
+            Open<UIViewLogin>(null, EUIViewOpenType.Overlying, EUIViewPriority.Level5);
         }
     }
 }

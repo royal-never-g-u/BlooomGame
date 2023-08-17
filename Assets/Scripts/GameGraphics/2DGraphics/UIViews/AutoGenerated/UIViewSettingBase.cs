@@ -28,6 +28,13 @@ namespace GameGraphics
 		protected virtual void OnButtonResolutionRightBtnClick(){ }
 		protected Button _buttonApply;
 		protected virtual void OnButtonApplyClick(){ }
+		protected GameObject _gameobjectExtraSetting;
+		protected Button _buttonLoad;
+		protected virtual void OnButtonLoadClick(){ }
+		protected Button _buttonSave;
+		protected virtual void OnButtonSaveClick(){ }
+		protected Button _buttonReturn;
+		protected virtual void OnButtonReturnClick(){ }
 		protected override void BindWidgets()
 		{
 			_buttonPanel = _root.transform.Find("<Button>Panel").GetComponent<Button>();
@@ -48,6 +55,13 @@ namespace GameGraphics
 			_buttonResolutionRightBtn.onClick.AddListener(OnButtonResolutionRightBtnClick);
 			_buttonApply = _root.transform.Find("<GameObject>SettingPanel/<Button>Apply").GetComponent<Button>();
 			_buttonApply.onClick.AddListener(OnButtonApplyClick);
+			_gameobjectExtraSetting = _root.transform.Find("<GameObject>SettingPanel/<GameObject>ExtraSetting").gameObject;
+			_buttonLoad = _root.transform.Find("<GameObject>SettingPanel/<GameObject>ExtraSetting/<Button>Load").GetComponent<Button>();
+			_buttonLoad.onClick.AddListener(OnButtonLoadClick);
+			_buttonSave = _root.transform.Find("<GameObject>SettingPanel/<GameObject>ExtraSetting/<Button>Save").GetComponent<Button>();
+			_buttonSave.onClick.AddListener(OnButtonSaveClick);
+			_buttonReturn = _root.transform.Find("<GameObject>SettingPanel/<GameObject>ExtraSetting/<Button>Return").GetComponent<Button>();
+			_buttonReturn.onClick.AddListener(OnButtonReturnClick);
 		}
 		protected override string GetPrefabPath()
 		{

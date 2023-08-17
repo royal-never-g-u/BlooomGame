@@ -1,4 +1,5 @@
 using Newtonsoft.Json;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
@@ -30,12 +31,16 @@ public class SaveManager : MonoBehaviour
         new Resolution(1920,1080),
         new Resolution(1600,900),
     };
-    private SaveData saveData;             //存档数据
-    private int saveIndex = 0;             //存档位编号
+    private SaveData saveData;                   //存档数据
+    public string dataPath;                      //存档数据位置
+
+    public int curSlotIndex = 0;                 //当前读取栏位
+    public int curPlayerLevel = 0;               //玩家等级
     public void Awake()
     {
         if (Instance == null) Instance = this;
         else Destroy(gameObject);
+        dataPath = Path.Combine(Application.dataPath, "SaveData.txt");
 
         //初始化存档数据
         InitSaveData();
@@ -46,22 +51,22 @@ public class SaveManager : MonoBehaviour
     /// </summary>
     private void InitSaveData()
     {
-        try
+        if (File.Exists(dataPath))
         {
-            string json = File.ReadAllText(Application.dataPath + "/SaveData.txt");
-            saveData = JsonConvert.DeserializeObject<SaveData>(json);  
+            string json = File.ReadAllText(dataPath);
+            saveData = JsonConvert.DeserializeObject<SaveData>(json);
         }
-        catch (FileNotFoundException)
+        else
         {
-            //如果文件路径不存在
             saveData = new SaveData() { 
                 prefer = new PlayerPrefer(),
+                dataList = new List<PlayerData>() {
+                    new PlayerData(),  //栏位1、2、3
+                    new PlayerData(),
+                    new PlayerData(),
+                },
             };
-            string json = JsonConvert.SerializeObject(saveData);
-            File.WriteAllText(Application.dataPath + "/SaveData.txt", json);
-            AssetDatabase.Refresh();  //编辑器刷新
         }
-
     }
 
     /// <summary>
@@ -79,7 +84,7 @@ public class SaveManager : MonoBehaviour
     {
         saveData.prefer = prefer;
         string json = JsonConvert.SerializeObject(saveData);
-        File.WriteAllText(Application.dataPath + "/SaveData.txt", json);
+        File.WriteAllText(dataPath, json);
         AssetDatabase.Refresh();  //编辑器刷新
     }
 
@@ -88,7 +93,7 @@ public class SaveManager : MonoBehaviour
     /// </summary>
     public void ApplyPlayerPrefer()
     {
-        PlayerPrefer prefer = saveData.prefer;
+        PlayerPrefer prefer = LoadPlayerPrefer();
 
         AudioManager.Instance.AdjustMusicVolume(prefer.musicVolume);
         AudioManager.Instance.AdjustBgmVolume(prefer.bgmVolume);
@@ -97,5 +102,78 @@ public class SaveManager : MonoBehaviour
         int width = resolutionList[prefer.resolutionIndex].width;
         int height = resolutionList[prefer.resolutionIndex].height;
         Screen.SetResolution(width, height, prefer.isFullScreen);
+    }
+
+    /// <summary>
+    /// 获取玩家数据列表
+    /// </summary>
+    public List<PlayerData> LoadPlayerDataList()
+    {
+        return saveData.dataList;
+    }
+
+    /// <summary>
+    /// 获取玩家数据
+    /// </summary>
+    /// <returns></returns>
+    public PlayerData LoadPlayerData(int index)
+    {
+        return LoadPlayerDataList()[index-1];
+    }
+
+    /// <summary>
+    /// 获取存档数据
+    /// </summary>
+    public SaveData LoadSaveData()
+    {
+        return saveData;
+    }
+
+    /// <summary>
+    /// 自动存档（默认为栏位1
+    /// </summary>
+    public void AutoSaveData()
+    {
+        SaveData(1);
+    }
+
+    /// <summary>
+    /// 存档，index->第几个栏位，栏位1即为1
+    /// </summary>
+    public void SaveData(int index)
+    {
+        List<PlayerData> list = LoadPlayerDataList();
+        list[index-1] = GetCurPlayerData();
+        string json = JsonConvert.SerializeObject(saveData);
+        File.WriteAllText(dataPath, json);
+        AssetDatabase.Refresh();           //编辑器刷新
+    }
+
+    /// <summary>
+    /// 辅助方法：获取当前玩家数据
+    /// </summary>
+    private PlayerData GetCurPlayerData()
+    {
+        DateTime curTime = DateTime.Now;
+        string str = curTime.ToString("yyyy/MM/dd HH:mm:ss");
+        PlayerData data = new PlayerData()
+        {
+            isExist = true,
+            dateTime = str,
+            level = curPlayerLevel,
+        };
+        return data;
+    }
+
+    /// <summary>
+    /// 删除存档，index->第几个栏位，栏位1即为1
+    /// </summary>
+    public void DeleteData(int index)
+    {
+        List<PlayerData> list = LoadPlayerDataList();
+        list[index - 1] = new PlayerData();
+        string json = JsonConvert.SerializeObject(saveData);
+        File.WriteAllText(dataPath, json);
+        AssetDatabase.Refresh();           //编辑器刷新
     }
 }

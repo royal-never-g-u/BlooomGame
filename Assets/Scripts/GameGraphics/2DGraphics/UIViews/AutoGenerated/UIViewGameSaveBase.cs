@@ -13,31 +13,43 @@ namespace GameGraphics
 		protected Button _buttonPanel;
 		protected virtual void OnButtonPanelClick(){ }
 		protected GameObject _gameobjectSettingPanel;
-		protected Button _buttonRead;
-		protected virtual void OnButtonReadClick(){ }
-		protected Button _buttonDelete;
-		protected virtual void OnButtonDeleteClick(){ }
+		protected Image _imagePrintScreen;
+		protected Text _textLevel;
+		protected Button _buttonCancelPanel;
+		protected virtual void OnButtonCancelPanelClick(){ }
 		protected Button _buttonSlot_1;
 		protected virtual void OnButtonSlot_1Click(){ }
 		protected Button _buttonSlot_2;
 		protected virtual void OnButtonSlot_2Click(){ }
 		protected Button _buttonSlot_3;
 		protected virtual void OnButtonSlot_3Click(){ }
+		protected Button _buttonSave;
+		protected virtual void OnButtonSaveClick(){ }
+		protected Button _buttonRead;
+		protected virtual void OnButtonReadClick(){ }
+		protected Button _buttonDelete;
+		protected virtual void OnButtonDeleteClick(){ }
 		protected override void BindWidgets()
 		{
 			_buttonPanel = _root.transform.Find("<Button>Panel").GetComponent<Button>();
 			_buttonPanel.onClick.AddListener(OnButtonPanelClick);
 			_gameobjectSettingPanel = _root.transform.Find("<GameObject>SettingPanel").gameObject;
-			_buttonRead = _root.transform.Find("<GameObject>SettingPanel/Button/<Button>Read").GetComponent<Button>();
-			_buttonRead.onClick.AddListener(OnButtonReadClick);
-			_buttonDelete = _root.transform.Find("<GameObject>SettingPanel/Button/<Button>Delete").GetComponent<Button>();
-			_buttonDelete.onClick.AddListener(OnButtonDeleteClick);
-			_buttonSlot_1 = _root.transform.Find("<GameObject>SettingPanel/Save/<Button>Slot_1").GetComponent<Button>();
+			_imagePrintScreen = _root.transform.Find("<GameObject>SettingPanel/<Image>PrintScreen").GetComponent<Image>();
+			_textLevel = _root.transform.Find("<GameObject>SettingPanel/<Image>PrintScreen/<Text>Level").GetComponent<Text>();
+			_buttonCancelPanel = _root.transform.Find("<Button>CancelPanel").GetComponent<Button>();
+			_buttonCancelPanel.onClick.AddListener(OnButtonCancelPanelClick);
+			_buttonSlot_1 = _root.transform.Find("SaveSlot/<Button>Slot_1").GetComponent<Button>();
 			_buttonSlot_1.onClick.AddListener(OnButtonSlot_1Click);
-			_buttonSlot_2 = _root.transform.Find("<GameObject>SettingPanel/Save/<Button>Slot_2").GetComponent<Button>();
+			_buttonSlot_2 = _root.transform.Find("SaveSlot/<Button>Slot_2").GetComponent<Button>();
 			_buttonSlot_2.onClick.AddListener(OnButtonSlot_2Click);
-			_buttonSlot_3 = _root.transform.Find("<GameObject>SettingPanel/Save/<Button>Slot_3").GetComponent<Button>();
+			_buttonSlot_3 = _root.transform.Find("SaveSlot/<Button>Slot_3").GetComponent<Button>();
 			_buttonSlot_3.onClick.AddListener(OnButtonSlot_3Click);
+			_buttonSave = _root.transform.Find("Info/Button/<Button>Save").GetComponent<Button>();
+			_buttonSave.onClick.AddListener(OnButtonSaveClick);
+			_buttonRead = _root.transform.Find("Info/Button/<Button>Read").GetComponent<Button>();
+			_buttonRead.onClick.AddListener(OnButtonReadClick);
+			_buttonDelete = _root.transform.Find("Info/Button/<Button>Delete").GetComponent<Button>();
+			_buttonDelete.onClick.AddListener(OnButtonDeleteClick);
 		}
 		protected override string GetPrefabPath()
 		{

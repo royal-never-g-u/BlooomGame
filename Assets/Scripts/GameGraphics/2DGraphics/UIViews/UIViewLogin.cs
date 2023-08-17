@@ -1,4 +1,7 @@
 using GameLogics;
+using System;
+using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 namespace GameGraphics
@@ -17,6 +20,16 @@ namespace GameGraphics
             SaveManager.Instance.ApplyPlayerPrefer();  //应用偏好设置
             AudioManager.Instance.PlayBGM("1");        //播放BGM
 
+            //打开读取存档按钮
+            List<PlayerData> dataList = SaveManager.Instance.LoadPlayerDataList();
+            for(int i = 0; i < dataList.Count; i++)
+            {
+                if (dataList[i].isExist)
+                {
+                    _buttonOldGameBtn.interactable = true;
+                    break;
+                }
+            }
         }
 
         /// <summary>
@@ -25,7 +38,7 @@ namespace GameGraphics
         protected override void OnButtonNewGameBtnClick()
         {
             Close();
-            GameObject.Find("Person").AddComponent<PersonComponent>();
+            Open<UIViewExtra>(null, EUIViewOpenType.Overlying, EUIViewPriority.Level5);  
         }
         
         /// <summary>
@@ -33,7 +46,7 @@ namespace GameGraphics
         /// </summary>
         protected override void OnButtonOldGameBtnClick()
         {
-            Open<UIViewGameSave>(null, EUIViewOpenType.Overlying, EUIViewPriority.Level5);
+            Open<UIViewGameSave>(2, EUIViewOpenType.Overlying, EUIViewPriority.Level5);
         }
 
         /// <summary>
@@ -42,7 +55,7 @@ namespace GameGraphics
         protected override void OnButtonSettingBtnClick()
         {
             //打开或关闭设置页面
-            Open<UIViewSetting>(null, EUIViewOpenType.Overlying, EUIViewPriority.Level5);
+            Open<UIViewSetting>(false, EUIViewOpenType.Overlying, EUIViewPriority.Level5);
         }
 
         /// <summary>
@@ -59,7 +72,11 @@ namespace GameGraphics
         /// </summary>
         protected override void OnButtonQuitBtnClick()
         {
-            
+            #if UNITY_EDITOR
+                EditorApplication.ExitPlaymode();
+            #else
+                Application.Quit();
+            #endif
         }
     }
 }
