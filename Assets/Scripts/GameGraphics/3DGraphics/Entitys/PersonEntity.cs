@@ -82,6 +82,7 @@ public class PersonComponent : MonoBehaviour
         }
         myCamera = Camera.main;
         deltaPos=myCamera.transform.position- transform.position;
+        rb.freezeRotation = true;
     }
     // Start is called before the first frame update
     void Start()
@@ -154,11 +155,11 @@ public class PersonComponent : MonoBehaviour
         if (onGround)
         {
             //_InterpolatingState.UpdateTransform(transform);
-            _InterpolatingState.ResetRotation(transform);
+            //_InterpolatingState.ResetRotation(transform);
         }
         else
         {
-            _InterpolatingState.ResetRotation(transform);
+            //_InterpolatingState.ResetRotation(transform);
         }
     }
     bool IsEscapePressed()
