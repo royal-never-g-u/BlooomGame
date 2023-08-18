@@ -1,1 +1,1 @@
-{"prefer":{"musicVolume":0.2293868,"bgmVolume":1.0,"soundVolume":1.0,"isFullScreen":true,"resolutionIndex":0},"dataList":[{"isExist":true,"dateTime":"2023/08/17 18:18:28","level":1},{"isExist":false,"dateTime":"栏位","level":0},{"isExist":false,"dateTime":"栏位","level":0}]}
+{"prefer":{"musicVolume":0.2293868,"bgmVolume":1.0,"soundVolume":1.0,"isFullScreen":true,"resolutionIndex":0},"dataList":[{"isExist":true,"dateTime":"2023/08/18 16:59:29","level":0},{"isExist":false,"dateTime":"栏位","level":0},{"isExist":false,"dateTime":"栏位","level":0}]}

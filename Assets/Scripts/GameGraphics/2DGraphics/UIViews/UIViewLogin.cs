@@ -38,7 +38,9 @@ namespace GameGraphics
         protected override void OnButtonNewGameBtnClick()
         {
             Close();
-            Open<UIViewExtra>(null, EUIViewOpenType.Overlying, EUIViewPriority.Level5);  
+            Open<UIViewExtra>(null, EUIViewOpenType.Overlying, EUIViewPriority.Level5);
+            Cursor.lockState = CursorLockMode.Locked;
+            //GameObject.Find("Person").AddComponent<PersonComponent>();
         }
         
         /// <summary>
